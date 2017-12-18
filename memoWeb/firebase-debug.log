@@ -1,0 +1,82 @@
+[debug] [2017-12-18T22:51:24.051Z] ----------------------------------------------------------------------
+[debug] [2017-12-18T22:51:24.053Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2017-12-18T22:51:24.053Z] CLI Version:   3.16.0
+[debug] [2017-12-18T22:51:24.053Z] Platform:      linux
+[debug] [2017-12-18T22:51:24.053Z] Node Version:  v8.9.1
+[debug] [2017-12-18T22:51:24.054Z] Time:          Tue Dec 19 2017 07:51:24 GMT+0900 (KST)
+[debug] [2017-12-18T22:51:24.054Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-18T22:51:24.066Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-18T22:51:24.066Z] > authorizing via signed-in user
+[debug] [2017-12-18T22:51:24.067Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-12-18T22:51:24.068Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/Q3SmoyNs67vgt7LJtmMFRmE1A4dSxMYNxDssg2cpb7I',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Tue Dec 19 2017 07:51:24 GMT+0900 (KST)
+[debug] [2017-12-18T22:51:24.414Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-18T22:51:24.420Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/memowebapp-aafcc  
+  
+ Tue Dec 19 2017 07:51:24 GMT+0900 (KST)
+[debug] [2017-12-18T22:51:25.531Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-18T22:51:25.532Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/memowebapp-aafcc/tokens  
+  
+ Tue Dec 19 2017 07:51:25 GMT+0900 (KST)
+[debug] [2017-12-18T22:51:26.384Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/dgjung/workspace/memoWeb'...
+[info] 
+[debug] [2017-12-18T22:51:26.396Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/memowebapp-aafcc  
+  
+ Tue Dec 19 2017 07:51:26 GMT+0900 (KST)
+[debug] [2017-12-18T22:51:27.733Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-18T22:51:27.745Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/364066233530/clients/_:getWebAppConfig  
+  
+ Tue Dec 19 2017 07:51:27 GMT+0900 (KST)
+[debug] [2017-12-18T22:51:29.753Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[debug] [2017-12-18T22:55:47.482Z] ----------------------------------------------------------------------
+[debug] [2017-12-18T22:55:47.486Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2017-12-18T22:55:47.487Z] CLI Version:   3.16.0
+[debug] [2017-12-18T22:55:47.487Z] Platform:      linux
+[debug] [2017-12-18T22:55:47.487Z] Node Version:  v8.9.1
+[debug] [2017-12-18T22:55:47.487Z] Time:          Tue Dec 19 2017 07:55:47 GMT+0900 (KST)
+[debug] [2017-12-18T22:55:47.487Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-12-18T22:55:47.501Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-12-18T22:55:47.502Z] > authorizing via signed-in user
+[debug] [2017-12-18T22:55:47.504Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/memowebapp-aafcc  
+  
+ Tue Dec 19 2017 07:55:47 GMT+0900 (KST)
+[debug] [2017-12-18T22:55:48.567Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-18T22:55:48.589Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/memowebapp-aafcc/tokens  
+  
+ Tue Dec 19 2017 07:55:48 GMT+0900 (KST)
+[debug] [2017-12-18T22:55:50.839Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/dgjung/workspace/memoWeb'...
+[info] 
+[debug] [2017-12-18T22:55:50.844Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/memowebapp-aafcc  
+  
+ Tue Dec 19 2017 07:55:50 GMT+0900 (KST)
+[debug] [2017-12-18T22:55:52.111Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-18T22:55:52.129Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/364066233530/clients/_:getWebAppConfig  
+  
+ Tue Dec 19 2017 07:55:52 GMT+0900 (KST)
+[debug] [2017-12-18T22:55:54.199Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2017-12-18T22:55:54.223Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/memowebapp-aafcc  
+  
+ Tue Dec 19 2017 07:55:54 GMT+0900 (KST)
+[debug] [2017-12-18T22:55:55.312Z] <<< HTTP RESPONSE 200
+[debug] [2017-12-18T22:55:55.313Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/364066233530/clients/_:getWebAppConfig  
+  
+ Tue Dec 19 2017 07:55:55 GMT+0900 (KST)
+[debug] [2017-12-18T22:55:57.112Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5004
+
