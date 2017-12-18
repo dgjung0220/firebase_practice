@@ -1,6 +1,6 @@
 ### Firebase
 
-Google IO 2016 에서 소개된, 웹과 모바일 환경에 필요한 기능을 제공하는 BaaS(Back-end as a Service).
+Google IO 2016 에서 소개된, 웹과 모바일 환경에 필요한 기능을 제공하는 BaaS(Back-end as a Service).   
 기존의 경우, 백엔드 설계를 위해 서버 아키텍쳐 설계, 보안, 인증, DB 설계, API 설계 등 모든 서버의 설계 및 기능을 구현해야 했지만, firebase 를 도입하여 프론트 엔드 개발에 집중할 수 있다. 크게 아래와 같은 기능을 가지고 있다.
 - backend 인증
 - real time database
@@ -31,8 +31,9 @@ Google IO 2016 에서 소개된, 웹과 모바일 환경에 필요한 기능을 
 - [node.js 설치](https://nodejs.org/en/)
 - Firebase CLI 설치 및 log-in
 	- 설치 : `$ npm install firebase-tools -g`
-
-### Firebase Android 설정 및 환경 설정
-1. Firebase Android Platform 설정
-2. Anroid Project 설정
-3. Authentication (/w Google)
+	- 프로젝트 리스트 : `$ firebase list`
+	- 프로젝트 초기화 : `$ firebase init` (database.rules.json, firebase.json, public 생성)
+		* database.rule.json : firebase database rules
+		* firebase.json : firebase 프로젝트 환경 설정 파일
+		* public > index.html : 호스팅에 대한 안내 파일.
+	- 프로젝트 서버 러닝 : `$ firebase serve`
