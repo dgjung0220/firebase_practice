@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "364066233530",
+    "firebase_url": "https://memowebapp-aafcc.firebaseio.com",
+    "project_id": "memowebapp-aafcc",
+    "storage_bucket": "memowebapp-aafcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364066233530:android:4e962110abe3c5ed",
+        "android_client_info": {
+          "package_name": "com.bearpot.arNavi_proto_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364066233530-kich4vpc4ooqq9ksrhi99kr1pd19h24v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4vG3jzmTmIYp7jcY6jEGVzmWuHH912wI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364066233530:android:1fdc43dff0edabb0",
+        "android_client_info": {
+          "package_name": "com.bearpot.firenote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364066233530-kich4vpc4ooqq9ksrhi99kr1pd19h24v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4vG3jzmTmIYp7jcY6jEGVzmWuHH912wI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
