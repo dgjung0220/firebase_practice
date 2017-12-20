@@ -32,6 +32,8 @@ dependencies {
     // Google Play Service 인증 기능 추가
     compile 'com.google.firebase:firebase-auth:11.8.0'
     compile 'com.google.android.gms:play-services-auth:11.8.0'
+
+    compile 'com.google.firebase:firebase-database:11.8.0'
 }
 
 apply plugin: 'com.google.gms.google-services'
